@@ -20,7 +20,7 @@ use Cake\Controller\Controller;
 
 /**
  * Application Controller
- * uau!!
+ * 
  * Add your application-wide methods in the class below, your controllers
  * will inherit them.
  *
