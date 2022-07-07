@@ -22,7 +22,10 @@ class ArticlesController extends AppController
 
     public function view($slug)
     {
-        $article = $this->Articles->findBySlug($slug)->firstOrFail();
+        $article = $this->Articles
+            ->findBySlug($slug)
+            ->contain('Tags')
+            ->firstOrFail();
         $this->set(compact('article'));
     }
 
@@ -55,8 +58,9 @@ class ArticlesController extends AppController
 {
     $article = $this->Articles
         ->findBySlug($slug)
-        ->contain('Tags') // load associated Tags
+        ->contain('Tags')
         ->firstOrFail();
+
     if ($this->request->is(['post', 'put'])) {
         $this->Articles->patchEntity($article, $this->request->getData());
         if ($this->Articles->save($article)) {
