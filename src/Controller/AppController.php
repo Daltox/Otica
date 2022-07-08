@@ -46,6 +46,7 @@ class AppController extends Controller
 
         //this line to check authentication result and lock your site
         $this->loadComponent('Authentication.Authentication');
+        $this->loadComponent('Authorization.Authorization');
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.

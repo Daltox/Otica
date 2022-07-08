@@ -156,6 +156,13 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
     return $authenticationService;
 }
 
+public function getAuthorizationService(ServerRequestInterface $request): AuthorizationServiceInterface
+{
+    $resolver = new OrmResolver();
+
+    return new AuthorizationService($resolver);
+}
+
     /**
      * Register application container services.
      *
