@@ -142,16 +142,16 @@
         },
         {
             "name": "cakephp/cakephp",
-            "version": "4.4.2",
+            "version": "4.4.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/cakephp.git",
-                "reference": "814db4d36f747258fc1790bf6ff2a3ecb936c388"
+                "reference": "35b1b52d234ad6ec8cf673c8b143c17895796897"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/814db4d36f747258fc1790bf6ff2a3ecb936c388",
-                "reference": "814db4d36f747258fc1790bf6ff2a3ecb936c388",
+                "url": "https://api.github.com/repos/cakephp/cakephp/zipball/35b1b52d234ad6ec8cf673c8b143c17895796897",
+                "reference": "35b1b52d234ad6ec8cf673c8b143c17895796897",
                 "shasum": ""
             },
             "require": {
@@ -242,7 +242,7 @@
                 "issues": "https://github.com/cakephp/cakephp/issues",
                 "source": "https://github.com/cakephp/cakephp"
             },
-            "time": "2022-07-06T02:27:55+00:00"
+            "time": "2022-07-27T00:52:07+00:00"
         },
         {
             "name": "cakephp/chronos",
@@ -414,16 +414,16 @@
         },
         {
             "name": "composer/ca-bundle",
-            "version": "1.3.2",
+            "version": "1.3.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "fd5dd441932a7e10ca6e5b490e272d34c8430640"
+                "reference": "30897edbfb15e784fe55587b4f73ceefd3c4d98c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/fd5dd441932a7e10ca6e5b490e272d34c8430640",
-                "reference": "fd5dd441932a7e10ca6e5b490e272d34c8430640",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/30897edbfb15e784fe55587b4f73ceefd3c4d98c",
+                "reference": "30897edbfb15e784fe55587b4f73ceefd3c4d98c",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
             "support": {
                 "irc": "irc://irc.freenode.org/composer",
                 "issues": "https://github.com/composer/ca-bundle/issues",
-                "source": "https://github.com/composer/ca-bundle/tree/1.3.2"
+                "source": "https://github.com/composer/ca-bundle/tree/1.3.3"
             },
             "funding": [
                 {
@@ -486,7 +486,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-05-24T11:56:16+00:00"
+            "time": "2022-07-20T07:14:26+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",
@@ -2162,16 +2162,16 @@
         },
         {
             "name": "cakephp/bake",
-            "version": "2.7.0",
+            "version": "2.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cakephp/bake.git",
-                "reference": "3933caa0941b2f75f3e53c5456efdbf588917584"
+                "reference": "808608b039088f7276b7128c1880ce6a915810b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cakephp/bake/zipball/3933caa0941b2f75f3e53c5456efdbf588917584",
-                "reference": "3933caa0941b2f75f3e53c5456efdbf588917584",
+                "url": "https://api.github.com/repos/cakephp/bake/zipball/808608b039088f7276b7128c1880ce6a915810b5",
+                "reference": "808608b039088f7276b7128c1880ce6a915810b5",
                 "shasum": ""
             },
             "require": {
@@ -2214,7 +2214,7 @@
                 "issues": "https://github.com/cakephp/bake/issues",
                 "source": "https://github.com/cakephp/bake"
             },
-            "time": "2022-04-14T08:50:07+00:00"
+            "time": "2022-07-22T05:28:18+00:00"
         },
         {
             "name": "cakephp/cakephp-codesniffer",
@@ -5398,16 +5398,16 @@
         },
         {
             "name": "slevomat/coding-standard",
-            "version": "8.2.0",
+            "version": "8.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/slevomat/coding-standard.git",
-                "reference": "0cec515440c92735ce3cc35cfb0891d89080a72b"
+                "reference": "a14df437f2efe861ca9118508f304de9655957e4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/0cec515440c92735ce3cc35cfb0891d89080a72b",
-                "reference": "0cec515440c92735ce3cc35cfb0891d89080a72b",
+                "url": "https://api.github.com/repos/slevomat/coding-standard/zipball/a14df437f2efe861ca9118508f304de9655957e4",
+                "reference": "a14df437f2efe861ca9118508f304de9655957e4",
                 "shasum": ""
             },
             "require": {
@@ -5417,9 +5417,9 @@
                 "squizlabs/php_codesniffer": "^3.7.1"
             },
             "require-dev": {
-                "phing/phing": "2.17.3",
+                "phing/phing": "2.17.4",
                 "php-parallel-lint/php-parallel-lint": "1.3.2",
-                "phpstan/phpstan": "1.4.10|1.8.0",
+                "phpstan/phpstan": "1.4.10|1.8.1",
                 "phpstan/phpstan-deprecation-rules": "1.0.0",
                 "phpstan/phpstan-phpunit": "1.0.0|1.1.1",
                 "phpstan/phpstan-strict-rules": "1.3.0",
@@ -5443,7 +5443,7 @@
             "description": "Slevomat Coding Standard for PHP_CodeSniffer complements Consistence Coding Standard by providing sniffs with additional checks.",
             "support": {
                 "issues": "https://github.com/slevomat/coding-standard/issues",
-                "source": "https://github.com/slevomat/coding-standard/tree/8.2.0"
+                "source": "https://github.com/slevomat/coding-standard/tree/8.3.0"
             },
             "funding": [
                 {
@@ -5455,7 +5455,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2022-07-08T09:51:40+00:00"
+            "time": "2022-07-16T11:59:39+00:00"
         },
         {
             "name": "squizlabs/php_codesniffer",
